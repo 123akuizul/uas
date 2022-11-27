@@ -7,7 +7,7 @@ st.title("""
 form input data, by Izul Ramdani
 """)
 
-deskripsi, import_data, preprocessing, modelling, implementation = st.tabs("Description", "Import Data", "Preprocessing", "Modelling", "Implementation")
+deskripsi, import_data, preprocessing, modelling, implementation = st.tabs(["Description", "Import Data", "Preprocessing", "Modelling", "Implementation"])
 
 #Fractional Knapsack Problem
 #Getting input from user

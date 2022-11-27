@@ -7,6 +7,8 @@ st.title("""
 form input data, by Izul Ramdani
 """)
 
+deskripsi, import_data, preprocessing, modelling, implementation = st.tabs("Description", "Import Data", "Preprocessing", "Modelling", "Implementation")
+
 #Fractional Knapsack Problem
 #Getting input from user
 ph=int(st.number_input("Masukan pH: ",0))

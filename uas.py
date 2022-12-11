@@ -32,6 +32,7 @@ with data_set_description:
     st.write("""2. Kolom Suhu ini mendefinisikan Suhu susu yang berkisar dari 34'C hingga 90'C maks : 34'C hingga 45,20'C""")
     st.write("""3. Kolom Rasa Susu ini mendefinisikan Rasa susu yang merupakan data kategori 0 (Buruk) atau 1 (Baik) maks : 1 (Baik)""")
     st.write("""4. Kolom Bau Susu ini mendefinisikan Bau susu yang merupakan data kategori 0 (Buruk) atau 1 (Baik) maks : 0 (Buruk)""")
+    st.write("""4. Kolom Bau Susu ini mendefinisikan Lemak susu yang merupakan data kategori 0 (Buruk) atau 1 (Baik) maks : 0 (Buruk)""")
     st.write("""5. Kolom Kekeruhan Susu ini mendefinisikan Kekeruhan susu yang merupakan data kategorikal 0 (Rendah) atau 1 (Tinggi) maks : 1""")
     st.write("""6. Kolom Warna Susu ini menentukan Warna susu yang berkisar dari 240 hingga 255 maks : 255""")
     st.write("""7. Kolom Target ini mendefinisikan Grade (Target) susu yang merupakan data kategori Dimana Rendah (Buruk) atau Sedang (Sedang)""")

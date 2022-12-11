@@ -21,6 +21,8 @@ st.write("##### Kelas : Penambangan Data A ")
 
 data_set_description, upload_data, preprocessing, modeling, implementation = st.tabs(["Data Set Description", "Upload Data", "Preprocessing", "Modeling", "Implementation"])
 
+df = pd.read_csv('https://raw.githubusercontent.com/123akuizul/uas/main/milknew.csv')
+
 with data_set_description:
     st.write("""# Data Set Description """)
     st.write("###### Data Set Ini Adalah : Milk Quality Prediction (Prediksi Kualitas Susu) ")

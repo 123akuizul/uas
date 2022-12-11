@@ -26,8 +26,16 @@ df = pd.read_csv('https://raw.githubusercontent.com/123akuizul/uas/main/milknew.
 with data_set_description:
     st.write("""# Data Set Description """)
     st.write("###### Data Set Ini Adalah : Milk Quality Prediction (Prediksi Kualitas Susu) ")
-    st.write("###### Sumber Data Set dari Kaggle : ")
-    st.write("""###### Penjelasan setiap kolom : """)
+    st.write("###### Sumber Data Set dari Kaggle : https://www.kaggle.com/datasets/cpluzshrijayan/milkquality ")
+    st.write("""###### Penjelasan setiap kolom : 1. Kolom Ph
+    ini mendefinisikan PH alus susu yang berkisar antara 3 hingga 9,5 maks : 6,25 hingga 6,90
+    2. Kolom Suhu ini mendefinisikan Suhu susu yang berkisar dari 34'C hingga 90'C maks : 34'C hingga 45,20'C
+    3. Kolom Rasa Susu ini mendefinisikan Rasa susu yang merupakan data kategori 0 (Buruk) atau 1 (Baik) maks : 1 (Baik)
+    4. Kolom Bau Susu ini mendefinisikan Bau susu yang merupakan data kategori 0 (Buruk) atau 1 (Baik) maks : 0 (Buruk)
+    5. Kolom Kekeruhan Susu ini mendefinisikan Kekeruhan susu yang merupakan data kategorikal 0 (Rendah) atau 1 (Tinggi) maks : 1
+    6. Kolom Warna Susu ini menentukan Warna susu yang berkisar dari 240 hingga 255 maks : 255
+    7. Kolom Target ini mendefinisikan Grade (Target) susu yang merupakan data kategori Dimana Rendah (Buruk) atau Sedang (Sedang)
+    """)
     st.write("###### Aplikasi ini untuk : Milk Quality Prediction (Prediksi Kualitas Susu) ")
     st.write("###### Source Code Aplikasi ada di Github anda bisa acces di link : ")
 
